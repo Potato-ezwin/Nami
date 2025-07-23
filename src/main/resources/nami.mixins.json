@@ -1,0 +1,53 @@
+{
+  "required": true,
+  "package": "me.kiriyaga.nami.mixin",
+  "compatibilityLevel": "JAVA_20",
+  "client": [
+    "ChatHudAccessor",
+    "ClientPlayerInteractionManagerAccessor",
+    "GameOptionsAccessor",
+    "KeyBindingAccessor",
+    "MixinArmorFeatureRenderer",
+    "MixinBossBarHud",
+    "MixinCamera",
+    "MixinChatScreen",
+    "MixinChunkBorderDebugRenderer",
+    "MixinClientPlayerEntity",
+    "MixinClientPlayerInteractionManager",
+    "MixinClientPlayNetworkHandler",
+    "MixinCompassState",
+    "MixinConnectScreen",
+    "MixinDisconnectedScreen",
+    "MixinEntityRenderer",
+    "MixinGameRenderer",
+    "MixinHeadFeatureRenderer",
+    "MixinInactivityFpsLimiter",
+    "MixinInGameHud",
+    "MixinInGameOverlayRenderer",
+    "MixinKeyboard",
+    "MixinMinecraftClient",
+    "MixinPlayerListHud",
+    "MixinScreen",
+    "MixinSimpleOption",
+    "MixinWorldRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "BundlePacketAccessor",
+    "EntityVelocityUpdateS2CPacketAccessor",
+    "ExplosionS2CPacketAccessor",
+    "LivingEntityAccessor",
+    "MixinClientConnection",
+    "MixinEntity",
+    "MixinLivingEntity",
+    "MixinPlayerEntity",
+    "MixinPlayerInteractEntityC2SPacket",
+    "MixinTextVisitFactory",
+    "PlayerInteractEntityC2SPacketAccessor",
+    "PlayerInventoryAccessor",
+    "PlayerPositionAccessor",
+    "ScreenHandlerAccessor"
+  ]
+}

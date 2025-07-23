@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nami",
+  "version": "${version}",
+  "name": "Nami Client",
+  "description": "A high-performance, modular client base for anarchy servers.",
+  "authors": ["Kiriyaga"],
+  "contact": {
+    "sources": "https://github.com/Kiriyaga7615/NamiClient"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.kiriyaga.nami.Nami"
+    ]
+  },
+  "mixins": [
+    "nami.mixins.json"
+  ],
+  "accessWidener": "META-INF/nami.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "fabric": "*",
+    "minecraft": "1.21.5"
+  }
+}
